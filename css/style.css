@@ -189,6 +189,7 @@ body {
 .footer-link {
     text-decoration: none;
     color: #3A383D;
+    margin-right: 25px;
 }
 .copyright {
     color: #3A383D;
