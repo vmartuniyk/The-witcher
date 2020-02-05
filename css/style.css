@@ -14,6 +14,13 @@ body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: top right 20%;
     
 }
 .container {
@@ -62,6 +69,7 @@ body {
 .main-content {
     display: flex;
     align-items: center;
+    margin-bottom: 85px;
 }
 .main-title {
     font-family: 'MasonChronicles', serif;
@@ -107,11 +115,84 @@ body {
     top: -16px;
 }
 
+/*Slider*/
+.swiper-container{
+    max-width: 420px;
+    margin-left: 0;
+}
+.series {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    position: relative;
+    max-width: 420px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 13px;
+    width: 164px;
+    height: 113px;
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%);
+    border-radius: 8px;
+    margin-right: 30px;
+}
 
+.card-subtitle {
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 2px;
+}
+.card-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
 
+.series-1 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url('../img/series/series-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.series-2 {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url('../img/series/series-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.arrow {
+    width: 32px;
+    height: 23px;
+    border: none;
+    background-image: url('../img/arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    right: -35px;
+}
 
-
-
+/*Footer*/
+.footer {
+    margin-top: auto;
+    background-color: #141218;
+    padding: 20px 0;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-link {
+    text-decoration: none;
+    color: #3A383D;
+}
+.copyright {
+    color: #3A383D;
+}
 
 
 
