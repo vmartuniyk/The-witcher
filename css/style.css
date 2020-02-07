@@ -344,6 +344,7 @@ Responsive*/
         width: 250px;
         padding: 24px;
         padding-bottom: 40px;
+        z-index: 1;
         
     }
     .header-active {
