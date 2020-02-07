@@ -297,6 +297,7 @@ Responsive*/
         transition: transform 0.2s;
         border: none;
         cursor: pointer;
+        z-index: 2;
     }
     .menu-button:before {
         content: '';
